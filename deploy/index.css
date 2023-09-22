@@ -1,0 +1,93 @@
+/* Reset some default browser styles */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.expense-tracker {
+  max-width: 60%;
+  margin: 1.3rem auto;
+  padding: 1.3rem;
+  background-color: #fff;
+  box-shadow: 0.6rem 0.6rem 0.6rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.3rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1.3rem;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.3rem;
+}
+
+.add-transaction {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.3rem;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 0.6rem;
+}
+
+input,
+select {
+  padding: 0.3rem;
+  margin-right: 0.6rem;
+}
+
+button {
+  padding: 0.8rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin: 0.6rem;
+}
+
+.transactions {
+  margin-top: 1.3rem;
+}
+
+.transactions h2 {
+  font-size: 1.1rem;
+  margin-bottom: 0.6rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 0.6rem;
+  padding: 0.6rem;
+  border: 0.1rem solid #ddd;
+  border-radius: 0.3rem;
+  background-color: #f9f9f9;
+}
+
+li span {
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+li button {
+  background-color: #ff6b6b;
+  color: #fff;
+  border: none;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  margin: 0.1rem;
+}
