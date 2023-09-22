@@ -24,7 +24,7 @@ It is hosted using firebase at https://arji30-expense-tracker.web.app/
 **Error Messages**: In case of errors, informative error messages are displayed to users, improving the overall user experience and aiding in problem resolution. While editing or adding a transaction, real time error messages are shown as alerts in case any data entered is invalid or any error occurs while handling the transaction.
 
 
-#### Website
+## Website
 The website has a clean user interface with only the very necessary elements.<br>
 The Total Expense , the Total Earnings and the Net Balance are displayed and updated in real time. <br>
 Users can add a new transaction by entering the amount(which accepts only numbers), the description and the type of transaction(currently only earning and expense type) and clicking on the add button. <br>
